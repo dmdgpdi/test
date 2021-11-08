@@ -1,0 +1,11 @@
+다른 사람이 만든 것을 사용한다?
+
+unofficail middle ware
+
+body-parser
+
+compression
+
+app.use(compression()) 모든 요청
+
+app.get('*', function(request, response, next){ // get방식에서만.

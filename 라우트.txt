@@ -1,0 +1,31 @@
+express
+공홈에서 설치해서 사용.
+
+route, routing
+경로에 따라 갈릴 수 있게 해줌.
+
+app.get('PATH',(ruq,res)=>{}) 로 함
+if문 사용하지 않아도 됨.
+
+app.listen(port, function)
+웹서버 연결포트.
+
+동적 라우팅에는 : 를 붙인다. /page/:pageId
+ex) -> /page/HTML
+request.params.pageId = HTML
+
+res.redirect('PATH')
+ex)  response.redirect('/');
+
+라우터 file 분리 하는 거 다시보기.
+
+express generator
+
+template engine 
+ex) pug
+
+Database
+ex)
+
+Middleware
+
